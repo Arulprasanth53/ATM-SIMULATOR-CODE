@@ -26,7 +26,7 @@ class ATM:
 
 def main():
     atm = ATM(user_pin="1234", initial_balance=5000)
-    print("Welcome to Python ATM 💳")
+    print("Welcome to Python ATM ")
 
     entered_pin = input("Enter your PIN: ")
     if atm.authenticate(entered_pin):
